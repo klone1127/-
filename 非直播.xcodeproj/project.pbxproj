@@ -15,6 +15,18 @@
 		7DF490BA1EA2745D005D98C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF490B81EA2745D005D98C6 /* LaunchScreen.storyboard */; };
 		7DF490C51EA2745D005D98C6 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490C41EA2745D005D98C6 /* ___Tests.m */; };
 		7DF490D01EA2745D005D98C6 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490CF1EA2745D005D98C6 /* ___UITests.m */; };
+		7DF490FD1EA3C0D4005D98C6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF490FC1EA3C0D4005D98C6 /* AudioToolbox.framework */; };
+		7DF490FF1EA3C0DC005D98C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF490FE1EA3C0DC005D98C6 /* AVFoundation.framework */; };
+		7DF491011EA3C0E4005D98C6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491001EA3C0E4005D98C6 /* CoreMedia.framework */; };
+		7DF491031EA3C0EE005D98C6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491021EA3C0EE005D98C6 /* CoreVideo.framework */; };
+		7DF491051EA3C102005D98C6 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491041EA3C102005D98C6 /* libbz2.tbd */; };
+		7DF491071EA3C10A005D98C6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491061EA3C10A005D98C6 /* libz.tbd */; };
+		7DF491091EA3C118005D98C6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491081EA3C118005D98C6 /* MediaPlayer.framework */; };
+		7DF4910B1EA3C129005D98C6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4910A1EA3C129005D98C6 /* MobileCoreServices.framework */; };
+		7DF4910D1EA3C134005D98C6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4910C1EA3C134005D98C6 /* OpenGLES.framework */; };
+		7DF4910F1EA3C140005D98C6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */; };
+		7DF491111EA3C14B005D98C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */; };
+		7DF491151EA3C19C005D98C6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		7DF490CB1EA2745D005D98C6 /* 非直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "非直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF490CF1EA2745D005D98C6 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		7DF490D11EA2745D005D98C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF490FC1EA3C0D4005D98C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7DF490FE1EA3C0DC005D98C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7DF491001EA3C0E4005D98C6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7DF491021EA3C0EE005D98C6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7DF491041EA3C102005D98C6 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		7DF491061EA3C10A005D98C6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7DF491081EA3C118005D98C6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7DF4910A1EA3C129005D98C6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7DF4910C1EA3C134005D98C6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF491111EA3C14B005D98C6 /* CoreGraphics.framework in Frameworks */,
+				7DF4910F1EA3C140005D98C6 /* VideoToolbox.framework in Frameworks */,
+				7DF4910D1EA3C134005D98C6 /* OpenGLES.framework in Frameworks */,
+				7DF491151EA3C19C005D98C6 /* IJKMediaFramework.framework in Frameworks */,
+				7DF4910B1EA3C129005D98C6 /* MobileCoreServices.framework in Frameworks */,
+				7DF491091EA3C118005D98C6 /* MediaPlayer.framework in Frameworks */,
+				7DF491071EA3C10A005D98C6 /* libz.tbd in Frameworks */,
+				7DF491051EA3C102005D98C6 /* libbz2.tbd in Frameworks */,
+				7DF491031EA3C0EE005D98C6 /* CoreVideo.framework in Frameworks */,
+				7DF491011EA3C0E4005D98C6 /* CoreMedia.framework in Frameworks */,
+				7DF490FF1EA3C0DC005D98C6 /* AVFoundation.framework in Frameworks */,
+				7DF490FD1EA3C0D4005D98C6 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,7 @@
 				7DF490C31EA2745D005D98C6 /* 非直播Tests */,
 				7DF490CE1EA2745D005D98C6 /* 非直播UITests */,
 				7DF490A81EA2745D005D98C6 /* Products */,
+				7DF490FB1EA3C0D3005D98C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +175,25 @@
 				7DF490D11EA2745D005D98C6 /* Info.plist */,
 			);
 			path = "非直播UITests";
+			sourceTree = "<group>";
+		};
+		7DF490FB1EA3C0D3005D98C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */,
+				7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */,
+				7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */,
+				7DF4910C1EA3C134005D98C6 /* OpenGLES.framework */,
+				7DF4910A1EA3C129005D98C6 /* MobileCoreServices.framework */,
+				7DF491081EA3C118005D98C6 /* MediaPlayer.framework */,
+				7DF491061EA3C10A005D98C6 /* libz.tbd */,
+				7DF491041EA3C102005D98C6 /* libbz2.tbd */,
+				7DF491021EA3C0EE005D98C6 /* CoreVideo.framework */,
+				7DF491001EA3C0E4005D98C6 /* CoreMedia.framework */,
+				7DF490FE1EA3C0DC005D98C6 /* AVFoundation.framework */,
+				7DF490FC1EA3C0D4005D98C6 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +484,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TBSUACPT52;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "非直播/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.klone.---";
@@ -440,6 +500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TBSUACPT52;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "非直播/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.klone.---";
@@ -516,6 +580,7 @@
 				7DF490D61EA2745D005D98C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DF490D71EA2745D005D98C6 /* Build configuration list for PBXNativeTarget "非直播Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +589,7 @@
 				7DF490D91EA2745D005D98C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DF490DA1EA2745D005D98C6 /* Build configuration list for PBXNativeTarget "非直播UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +598,7 @@
 				7DF490DC1EA2745D005D98C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
