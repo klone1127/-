@@ -27,6 +27,7 @@
 		7DF4910F1EA3C140005D98C6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */; };
 		7DF491111EA3C14B005D98C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */; };
 		7DF491151EA3C19C005D98C6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */; };
+		7F951A6FB0C31670FC0B6D6F /* libPods-非直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A23EF00919B21123807FE20 /* libPods-非直播.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A23EF00919B21123807FE20 /* libPods-非直播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-非直播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CDBFB149448613C0065ADA /* Pods-非直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.release.xcconfig"; sourceTree = "<group>"; };
 		7DF490A71EA2745D005D98C6 /* 非直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "非直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF490AB1EA2745D005D98C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DF490AD1EA2745D005D98C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				7DF491011EA3C0E4005D98C6 /* CoreMedia.framework in Frameworks */,
 				7DF490FF1EA3C0DC005D98C6 /* AVFoundation.framework in Frameworks */,
 				7DF490FD1EA3C0D4005D98C6 /* AudioToolbox.framework in Frameworks */,
+				7F951A6FB0C31670FC0B6D6F /* libPods-非直播.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E139C50E994B7652034D4AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */,
+				50CDBFB149448613C0065ADA /* Pods-非直播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DF4909E1EA2745D005D98C6 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +136,7 @@
 				7DF490CE1EA2745D005D98C6 /* 非直播UITests */,
 				7DF490A81EA2745D005D98C6 /* Products */,
 				7DF490FB1EA3C0D3005D98C6 /* Frameworks */,
+				0E139C50E994B7652034D4AB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +207,7 @@
 				7DF491001EA3C0E4005D98C6 /* CoreMedia.framework */,
 				7DF490FE1EA3C0DC005D98C6 /* AVFoundation.framework */,
 				7DF490FC1EA3C0D4005D98C6 /* AudioToolbox.framework */,
+				4A23EF00919B21123807FE20 /* libPods-非直播.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF490D41EA2745D005D98C6 /* Build configuration list for PBXNativeTarget "非直播" */;
 			buildPhases = (
+				2CDD43F03BB7D90368CF5ADA /* [CP] Check Pods Manifest.lock */,
 				7DF490A31EA2745D005D98C6 /* Sources */,
 				7DF490A41EA2745D005D98C6 /* Frameworks */,
 				7DF490A51EA2745D005D98C6 /* Resources */,
+				08DD9B2B64CD54DCD877353E /* [CP] Embed Pods Frameworks */,
+				DA5223DB2FD75B316A743957 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +345,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08DD9B2B64CD54DCD877353E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-非直播/Pods-非直播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CDD43F03BB7D90368CF5ADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5223DB2FD75B316A743957 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-非直播/Pods-非直播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DF490A31EA2745D005D98C6 /* Sources */ = {
@@ -481,6 +548,7 @@
 		};
 		7DF490D51EA2745D005D98C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TBSUACPT52;
@@ -491,7 +559,10 @@
 				INFOPLIST_FILE = "非直播/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-lc++";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.klone.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -499,6 +570,7 @@
 		};
 		7DF490D61EA2745D005D98C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CDBFB149448613C0065ADA /* Pods-非直播.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TBSUACPT52;
@@ -509,7 +581,10 @@
 				INFOPLIST_FILE = "非直播/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-lc++";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.klone.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
