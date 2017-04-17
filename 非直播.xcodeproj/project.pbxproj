@@ -27,6 +27,11 @@
 		7DF4910F1EA3C140005D98C6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */; };
 		7DF491111EA3C14B005D98C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */; };
 		7DF491151EA3C19C005D98C6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */; };
+		7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */; };
+		7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4911B1EA50A4D005D98C6 /* BaseTabbarViewController.m */; };
+		7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */; };
+		7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491211EA511F9005D98C6 /* VideosNavigationController.m */; };
+		7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491241EA51240005D98C6 /* VideosViewController.m */; };
 		7F951A6FB0C31670FC0B6D6F /* libPods-非直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A23EF00919B21123807FE20 /* libPods-非直播.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +83,16 @@
 		7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureVideosViewController.h; sourceTree = "<group>"; };
+		7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureVideosViewController.m; sourceTree = "<group>"; };
+		7DF4911A1EA50A4D005D98C6 /* BaseTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarViewController.h; sourceTree = "<group>"; };
+		7DF4911B1EA50A4D005D98C6 /* BaseTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarViewController.m; sourceTree = "<group>"; };
+		7DF4911D1EA50AE9005D98C6 /* CaptureVideosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureVideosNavigationController.h; sourceTree = "<group>"; };
+		7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureVideosNavigationController.m; sourceTree = "<group>"; };
+		7DF491201EA511F9005D98C6 /* VideosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosNavigationController.h; sourceTree = "<group>"; };
+		7DF491211EA511F9005D98C6 /* VideosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosNavigationController.m; sourceTree = "<group>"; };
+		7DF491231EA51240005D98C6 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		7DF491241EA51240005D98C6 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
 		D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,10 +168,15 @@
 		7DF490A91EA2745D005D98C6 /* 非直播 */ = {
 			isa = PBXGroup;
 			children = (
+				7DF491191EA50A25005D98C6 /* Base */,
 				7DF490AD1EA2745D005D98C6 /* AppDelegate.h */,
 				7DF490AE1EA2745D005D98C6 /* AppDelegate.m */,
 				7DF490B01EA2745D005D98C6 /* ViewController.h */,
 				7DF490B11EA2745D005D98C6 /* ViewController.m */,
+				7DF491231EA51240005D98C6 /* VideosViewController.h */,
+				7DF491241EA51240005D98C6 /* VideosViewController.m */,
+				7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */,
+				7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */,
 				7DF490B31EA2745D005D98C6 /* Main.storyboard */,
 				7DF490B61EA2745D005D98C6 /* Assets.xcassets */,
 				7DF490B81EA2745D005D98C6 /* LaunchScreen.storyboard */,
@@ -210,6 +230,19 @@
 				4A23EF00919B21123807FE20 /* libPods-非直播.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DF491191EA50A25005D98C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4911A1EA50A4D005D98C6 /* BaseTabbarViewController.h */,
+				7DF4911B1EA50A4D005D98C6 /* BaseTabbarViewController.m */,
+				7DF4911D1EA50AE9005D98C6 /* CaptureVideosNavigationController.h */,
+				7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */,
+				7DF491201EA511F9005D98C6 /* VideosNavigationController.h */,
+				7DF491211EA511F9005D98C6 /* VideosNavigationController.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,7 +433,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */,
+				7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */,
+				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
+				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
+				7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */,
 				7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */,
+				7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */,
 				7DF490AC1EA2745D005D98C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

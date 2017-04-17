@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <IJKMediaFramework/IJKMPMoviePlayerController.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
 
@@ -17,10 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     // Do any additional setup after loading the view, typically from a nib.
-    
+//    IJKFFMoviePlayerController *player = [[IJKFFMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:@"http://pull6.a8.com/live/1492354691837132.flv"] withOptions:nil];
+//    player.view.frame = [UIScreen mainScreen].bounds;
+//    
+//    [player prepareToPlay];
+//    [self.view addSubview:player.view];
+//    
+//    [player play];
 }
 
+- (void)initCaptureVideo {
+    AVCaptureSession *captureSession = [[AVCaptureSession alloc] init];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
