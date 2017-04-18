@@ -33,6 +33,8 @@
 		7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491211EA511F9005D98C6 /* VideosNavigationController.m */; };
 		7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491241EA51240005D98C6 /* VideosViewController.m */; };
 		7F951A6FB0C31670FC0B6D6F /* libPods-非直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A23EF00919B21123807FE20 /* libPods-非直播.a */; };
+		8BB8C35D1EA6207A00C81373 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8C35C1EA6207A00C81373 /* AVCamPreviewView.m */; };
+		8BB8C3611EA6209C00C81373 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8C3601EA6209C00C81373 /* AVCamPhotoCaptureDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,10 @@
 		7DF491211EA511F9005D98C6 /* VideosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosNavigationController.m; sourceTree = "<group>"; };
 		7DF491231EA51240005D98C6 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
 		7DF491241EA51240005D98C6 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		8BB8C35B1EA6207A00C81373 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		8BB8C35C1EA6207A00C81373 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		8BB8C35F1EA6209C00C81373 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		8BB8C3601EA6209C00C81373 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
 		D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +174,7 @@
 		7DF490A91EA2745D005D98C6 /* 非直播 */ = {
 			isa = PBXGroup;
 			children = (
+				8BB8C35A1EA6205200C81373 /* View */,
 				7DF491191EA50A25005D98C6 /* Base */,
 				7DF490AD1EA2745D005D98C6 /* AppDelegate.h */,
 				7DF490AE1EA2745D005D98C6 /* AppDelegate.m */,
@@ -177,6 +184,8 @@
 				7DF491241EA51240005D98C6 /* VideosViewController.m */,
 				7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */,
 				7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */,
+				8BB8C35F1EA6209C00C81373 /* AVCamPhotoCaptureDelegate.h */,
+				8BB8C3601EA6209C00C81373 /* AVCamPhotoCaptureDelegate.m */,
 				7DF490B31EA2745D005D98C6 /* Main.storyboard */,
 				7DF490B61EA2745D005D98C6 /* Assets.xcassets */,
 				7DF490B81EA2745D005D98C6 /* LaunchScreen.storyboard */,
@@ -243,6 +252,15 @@
 				7DF491211EA511F9005D98C6 /* VideosNavigationController.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		8BB8C35A1EA6205200C81373 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8C35B1EA6207A00C81373 /* AVCamPreviewView.h */,
+				8BB8C35C1EA6207A00C81373 /* AVCamPreviewView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,8 +452,10 @@
 			files = (
 				7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */,
 				7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */,
+				8BB8C35D1EA6207A00C81373 /* AVCamPreviewView.m in Sources */,
 				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
 				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
+				8BB8C3611EA6209C00C81373 /* AVCamPhotoCaptureDelegate.m in Sources */,
 				7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */,
 				7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */,
 				7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */,
@@ -595,7 +615,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "非直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -617,7 +637,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "非直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",

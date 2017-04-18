@@ -7,6 +7,8 @@
 //
 
 #import "CaptureVideosViewController.h"
+#import "AVCamPreviewView.h"
+#import "AVCamPhotoCaptureDelegate.h"
 
 @interface CaptureVideosViewController ()
 
