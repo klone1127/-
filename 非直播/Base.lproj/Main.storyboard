@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,108 +25,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-106" y="339"/>
-        </scene>
-        <!--Capture Videos View Controller-->
-        <scene sceneID="GAD-pR-1vO">
-            <objects>
-                <viewController id="UHb-Jk-RPl" customClass="CaptureVideosViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3Y7-Ty-ZGr"/>
-                        <viewControllerLayoutGuide type="bottom" id="RxC-s2-OwP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HtW-W9-Kj0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0e-am-VRb" customClass="AVCamPreviewView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="yQu-Cf-MCB" appends="YES" id="shW-MG-lep"/>
-                                </connections>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPA-vg-fyN">
-                                <rect key="frame" x="64" y="580" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="caG-YN-sOn"/>
-                                    <constraint firstAttribute="height" constant="30" id="q4D-0K-x2Q"/>
-                                </constraints>
-                                <state key="normal" title="录制"/>
-                                <connections>
-                                    <action selector="toggleMovieRecording:" destination="UHb-Jk-RPl" eventType="touchUpInside" id="T5x-qM-Od6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPO-Sh-Bnf">
-                                <rect key="frame" x="290" y="580" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="FwJ-bR-RzX"/>
-                                    <constraint firstAttribute="width" constant="46" id="zpC-Ti-lPs"/>
-                                </constraints>
-                                <state key="normal" title="切换"/>
-                                <connections>
-                                    <action selector="changeCamera:" destination="UHb-Jk-RPl" eventType="touchUpInside" id="5g3-LD-4dI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZ5-zT-oIz">
-                                <rect key="frame" x="164.5" y="580" width="46" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="OYz-S7-2he"/>
-                                    <constraint firstAttribute="width" constant="46" id="nPh-ox-ggV"/>
-                                </constraints>
-                                <state key="normal" title="抓拍"/>
-                                <connections>
-                                    <action selector="capturePhoto:" destination="UHb-Jk-RPl" eventType="touchUpInside" id="zsT-Jm-3eg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kc-2o-Ycs">
-                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="resumeInterruptedSession:" destination="UHb-Jk-RPl" eventType="touchUpInside" id="dyE-tT-Kk0"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相机不可用" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cz-mC-Z3q">
-                                <rect key="frame" x="144" y="323" width="87" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="RxC-s2-OwP" firstAttribute="top" secondItem="wZ5-zT-oIz" secondAttribute="bottom" constant="57" id="9kg-df-zSr"/>
-                            <constraint firstItem="9cz-mC-Z3q" firstAttribute="centerY" secondItem="HtW-W9-Kj0" secondAttribute="centerY" id="EH5-5n-Xqb"/>
-                            <constraint firstItem="iPA-vg-fyN" firstAttribute="top" secondItem="wZ5-zT-oIz" secondAttribute="top" id="Ehg-DJ-R2g"/>
-                            <constraint firstItem="PPO-Sh-Bnf" firstAttribute="leading" secondItem="wZ5-zT-oIz" secondAttribute="trailing" constant="79.5" id="KM4-MV-YTE"/>
-                            <constraint firstItem="A0e-am-VRb" firstAttribute="leading" secondItem="HtW-W9-Kj0" secondAttribute="leading" id="Lni-v4-BSw"/>
-                            <constraint firstItem="PPO-Sh-Bnf" firstAttribute="top" secondItem="wZ5-zT-oIz" secondAttribute="top" id="N8H-0Q-yc3"/>
-                            <constraint firstItem="9cz-mC-Z3q" firstAttribute="centerX" secondItem="HtW-W9-Kj0" secondAttribute="centerX" id="W8s-jy-PXo"/>
-                            <constraint firstAttribute="trailing" secondItem="A0e-am-VRb" secondAttribute="trailing" id="ZJx-EN-JOl"/>
-                            <constraint firstItem="A0e-am-VRb" firstAttribute="top" secondItem="HtW-W9-Kj0" secondAttribute="top" id="dGJ-V0-ALl"/>
-                            <constraint firstItem="wZ5-zT-oIz" firstAttribute="centerX" secondItem="HtW-W9-Kj0" secondAttribute="centerX" id="dsX-DV-e84"/>
-                            <constraint firstItem="wZ5-zT-oIz" firstAttribute="leading" secondItem="iPA-vg-fyN" secondAttribute="trailing" constant="54.5" id="kL4-bW-Uvn"/>
-                            <constraint firstItem="8kc-2o-Ycs" firstAttribute="centerY" secondItem="HtW-W9-Kj0" secondAttribute="centerY" id="p8Q-VS-nE0"/>
-                            <constraint firstItem="RxC-s2-OwP" firstAttribute="top" secondItem="A0e-am-VRb" secondAttribute="bottom" id="pal-Vj-ErP"/>
-                            <constraint firstItem="8kc-2o-Ycs" firstAttribute="centerX" secondItem="HtW-W9-Kj0" secondAttribute="centerX" id="v5J-cL-evb"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="cameraButton" destination="PPO-Sh-Bnf" id="pfE-g4-HNc"/>
-                        <outlet property="cameraUnavailableLabel" destination="9cz-mC-Z3q" id="nYG-I2-waQ"/>
-                        <outlet property="photoButton" destination="wZ5-zT-oIz" id="LK3-56-gYR"/>
-                        <outlet property="previewView" destination="A0e-am-VRb" id="p4B-PU-TdD"/>
-                        <outlet property="recordButton" destination="iPA-vg-fyN" id="cKv-Ae-bv2"/>
-                        <outlet property="resumeButton" destination="8kc-2o-Ycs" id="q9H-NF-s60"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0uZ-Tr-Z0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="yQu-Cf-MCB">
-                    <connections>
-                        <action selector="focusAndExposeTap:" destination="UHb-Jk-RPl" id="6EK-of-K85"/>
-                    </connections>
-                </tapGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="319" y="-18"/>
+            <point key="canvasLocation" x="406" y="115"/>
         </scene>
     </scenes>
 </document>
