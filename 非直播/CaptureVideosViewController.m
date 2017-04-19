@@ -32,7 +32,10 @@
     [self configureSession];
     [self addViewPreviewLayer];
     [self changeCameraButton];
+    [self.captureSession startRunning];
 }
+
+
 
 - (void)addViewPreviewLayer {
     AVCaptureVideoPreviewLayer *previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
@@ -40,7 +43,8 @@
     self.videoPreviewLayer = previewLayer;
     [self.view.layer addSublayer:self.videoPreviewLayer];
     
-    [self.captureSession startRunning];
+    UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(focusAndExposeTap:)];
+    [self.view addGestureRecognizer:tapGes];
 }
 
 - (void)setupCaptureSession {
@@ -225,6 +229,39 @@
 //        NSLog(@"port:%@", connection.inputPorts);
     } else {
         NSLog(@"音频---");
+    }
+    
+}
+
+#pragma mark - 聚焦手势
+- (void)focusAndExposeTap:(UITapGestureRecognizer *)ges {
+    
+    CGPoint devicePoint = [self.videoPreviewLayer captureDevicePointOfInterestForPoint:[ges locationInView:ges.view]];
+        [self focusWithMode:AVCaptureFocusModeAutoFocus
+             exposeWithMode:AVCaptureExposureModeAutoExpose
+              atDevicePoint:devicePoint
+   monitorSubjectAreaChange:YES];
+    
+}
+
+- (void)focusWithMode:(AVCaptureFocusMode)focusMode exposeWithMode:(AVCaptureExposureMode)exposureMode atDevicePoint:(CGPoint)point monitorSubjectAreaChange:(BOOL)monitorSubjectAreaChange {
+    
+    AVCaptureDevice *device = self.videoDeviceInput.device;
+    NSError *error = nil;
+    if ([device lockForConfiguration:&error]) {
+        
+        if (device.isFocusPointOfInterestSupported && [device isFocusModeSupported:focusMode]) {
+            device.focusPointOfInterest = point;
+            device.focusMode = focusMode;
+        }
+        
+        if (device.isExposurePointOfInterestSupported && [device isExposurePointOfInterestSupported]) {
+            device.exposurePointOfInterest = point;
+            device.exposureMode = exposureMode;
+        }
+        device.subjectAreaChangeMonitoringEnabled = monitorSubjectAreaChange;
+        [device unlockForConfiguration];
+        
     }
     
 }
