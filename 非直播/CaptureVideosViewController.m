@@ -31,7 +31,7 @@
     [self searchDevice];
     [self configureSession];
     [self addViewPreviewLayer];
-    
+    [self changeCameraButton];
 }
 
 - (void)addViewPreviewLayer {
@@ -61,10 +61,9 @@
     
     [self inputAndOutDevice];
     
-    
-    
-    
 }
+
+
 
 - (void)inputAndOutDevice {
     AVCaptureDevice *videoDevice = [self chooseCamera];
@@ -137,6 +136,86 @@
     }
     
     return videoDevice;
+}
+
+- (void)changeCameraButton {
+    UIButton *but = [UIButton buttonWithType:UIButtonTypeSystem];
+    [self.view addSubview:but];
+    but.frame = CGRectMake(20, 70, 70, 40);
+    [but setTitle:@"切换相机" forState:UIControlStateNormal];
+    [but addTarget:self action:@selector(changeCamera:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)changeCamera:(UIButton *)sender {
+    // 获取当前输入设备
+    AVCaptureDevice *currentDevice = self.videoDeviceInput.device;
+    // 获取摄像头方向
+    AVCaptureDevicePosition currentPosition = currentDevice.position;
+    
+    [self preferredCameraPositionAndDeviceType:currentPosition changeDeviceTypeAndPosition:^(AVCaptureDevicePosition preferredPosition, AVCaptureDeviceType preferredDeviceType) {
+        
+    }];
+    
+    
+}
+
+- (void)preferredCameraPositionAndDeviceType:(AVCaptureDevicePosition)currentPosition changeDeviceTypeAndPosition:(void (^)(AVCaptureDevicePosition preferredPosition, AVCaptureDeviceType preferredDeviceType))chage {
+    
+    AVCaptureDevicePosition preferredPosition;
+    AVCaptureDeviceType     preferredDeviceType;
+    
+    switch (currentPosition) {
+        case AVCaptureDevicePositionUnspecified:
+        case AVCaptureDevicePositionFront:
+            preferredPosition = AVCaptureDevicePositionBack;
+            preferredDeviceType = AVCaptureDeviceTypeBuiltInDuoCamera;
+            break;
+        case AVCaptureDevicePositionBack:
+            preferredPosition = AVCaptureDevicePositionFront;
+            preferredDeviceType = AVCaptureDeviceTypeBuiltInWideAngleCamera;
+            break;
+        default:
+            break;
+    }
+    
+    NSArray<AVCaptureDevice *> *devices = self.captureDeviceDiscoverySession.devices;
+    AVCaptureDevice *newVideoDevice = nil;
+    
+    // 首选位置 和 设备类型
+    for (AVCaptureDevice *device in devices) {
+        if (device.position == preferredPosition && [device.deviceType isEqualToString:preferredDeviceType]) {
+            newVideoDevice = device;
+            break;
+        }
+    }
+    
+    // 仅查看首选位置
+    if (!newVideoDevice) {
+        for (AVCaptureDevice *device in devices) {
+            if (device.position == preferredPosition) {
+                newVideoDevice = device;
+                break;
+            }
+        }
+    }
+    
+    if (newVideoDevice) {
+        AVCaptureDeviceInput *videoDeviceInput = [AVCaptureDeviceInput deviceInputWithDevice:newVideoDevice error:nil];
+        
+        // 移除已存在的输入设备
+        [self.captureSession removeInput:self.videoDeviceInput];
+        
+        if ([self.captureSession canAddInput:videoDeviceInput]) {
+            // 聚焦
+            [self.captureSession addInput:videoDeviceInput];
+        } else {
+            [self.captureSession addInput:self.videoDeviceInput];
+        }
+        
+        self.videoDeviceInput = videoDeviceInput;
+    }
+    
+    chage(preferredPosition, preferredDeviceType);
 }
 
 #pragma mark - delegate
