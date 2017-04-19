@@ -35,7 +35,11 @@
     [self.captureSession startRunning];
 }
 
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+     // FIXME: 添加通知
+//    [self addObservers];
+}
 
 - (void)addViewPreviewLayer {
     AVCaptureVideoPreviewLayer *previewLayer = [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
