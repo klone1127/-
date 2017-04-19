@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.navigationItem.title = @"直播";
-    self.view.backgroundColor = [UIColor whiteColor];
+    
     
     [self setupCaptureSession];
     [self searchDevice];
@@ -37,8 +37,16 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-     // FIXME: 添加通知
-//    [self addObservers];
+    [self addObservers];
+}
+
+- (void)addObservers {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(subjectAreaDidChange:) name:AVCaptureDeviceSubjectAreaDidChangeNotification object:self.videoDeviceInput.device];
+}
+
+- (void)subjectAreaDidChange:(NSNotification *)not {
+    CGPoint devicePoint = CGPointMake( 0.5, 0.5 );
+    [self focusWithMode:AVCaptureFocusModeContinuousAutoFocus exposeWithMode:AVCaptureExposureModeContinuousAutoExposure atDevicePoint:devicePoint monitorSubjectAreaChange:NO];
 }
 
 - (void)addViewPreviewLayer {
@@ -215,12 +223,15 @@
         
         if ([self.captureSession canAddInput:videoDeviceInput]) {
             // 聚焦
+            [[NSNotificationCenter defaultCenter] removeObserver:self name:AVCaptureDeviceSubjectAreaDidChangeNotification object:self.videoDeviceInput.device];
+            
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(subjectAreaDidChange:) name:AVCaptureDeviceSubjectAreaDidChangeNotification object:newVideoDevice];
             [self.captureSession addInput:videoDeviceInput];
+            self.videoDeviceInput = videoDeviceInput;
         } else {
             [self.captureSession addInput:self.videoDeviceInput];
         }
         
-        self.videoDeviceInput = videoDeviceInput;
     }
     
     chage(preferredPosition, preferredDeviceType);
