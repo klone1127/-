@@ -1,1 +1,0 @@
-../../../SVGKit/Source/DOM classes/SVG-DOM/SVGTextPositioningElement_Mutable.h

@@ -12,6 +12,7 @@
 
 #import "VideosViewController.h"
 #import "CaptureVideosViewController.h"
+#import "CustomTabBar.h"
 
 @interface BaseTabbarViewController ()
 
@@ -23,6 +24,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.viewControllers = [self setupVC];
+    [self setValue:[CustomTabBar new] forKey:@"tabBar"];
+    
+}
+
+- (void)tableItemView {
     
 }
 

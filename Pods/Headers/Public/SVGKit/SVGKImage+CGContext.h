@@ -1,1 +1,0 @@
-../../../SVGKit/Source/Exporters/SVGKImage+CGContext.h

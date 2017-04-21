@@ -1,1 +1,0 @@
-../../../SVGKit/Source/DOM classes/Core DOM/Comment.h

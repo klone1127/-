@@ -1,1 +1,0 @@
-../../../SVGKit/Source/Parsers/Parser Extensions/SVGKParserDefsAndUse.h

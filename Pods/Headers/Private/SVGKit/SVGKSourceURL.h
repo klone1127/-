@@ -1,1 +1,0 @@
-../../../SVGKit/Source/Sources/SVGKSourceURL.h

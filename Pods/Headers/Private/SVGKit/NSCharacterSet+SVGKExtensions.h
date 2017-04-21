@@ -1,1 +1,0 @@
-../../../SVGKit/Source/UIKit additions/NSCharacterSet+SVGKExtensions.h

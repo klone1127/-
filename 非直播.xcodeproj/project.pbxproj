@@ -33,6 +33,18 @@
 		7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491211EA511F9005D98C6 /* VideosNavigationController.m */; };
 		7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491241EA51240005D98C6 /* VideosViewController.m */; };
 		7F951A6FB0C31670FC0B6D6F /* libPods-非直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A23EF00919B21123807FE20 /* libPods-非直播.a */; };
+		8B798A0A1EA87AE4003B37FA /* 个人.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8B798A091EA87AE4003B37FA /* 个人.svg */; };
+		8BEB9D7D1EA9E93E00BAEFC7 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */; };
+		8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */; };
+		8BEB9D9D1EAA0E6200BAEFC7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9D9C1EAA0E6200BAEFC7 /* CoreText.framework */; };
+		8BEB9D9F1EAA0E7100BAEFC7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9D9E1EAA0E7100BAEFC7 /* CoreImage.framework */; };
+		8BEB9DA11EAA0E7E00BAEFC7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9DA01EAA0E7E00BAEFC7 /* libxml2.tbd */; };
+		8BEB9DA31EAA0E9000BAEFC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9DA21EAA0E9000BAEFC7 /* QuartzCore.framework */; };
+		8BEB9DA61EAA0F0100BAEFC7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9DA51EAA0F0100BAEFC7 /* CocoaLumberjack.framework */; };
+		8BEB9DA71EAA0F1800BAEFC7 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9DA51EAA0F0100BAEFC7 /* CocoaLumberjack.framework */; };
+		8BEB9DA81EAA0F1800BAEFC7 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9DA51EAA0F0100BAEFC7 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8BEB9DAC1EAA17AB00BAEFC7 /* libSVGKit-iOS.2.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9DAA1EAA17AB00BAEFC7 /* libSVGKit-iOS.2.0.0.a */; };
+		8BEB9DAD1EAA17AB00BAEFC7 /* usr in Resources */ = {isa = PBXBuildFile; fileRef = 8BEB9DAB1EAA17AB00BAEFC7 /* usr */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,20 @@
 			remoteInfo = "非直播";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BEB9DA91EAA0F1800BAEFC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BEB9DA81EAA0F1800BAEFC7 /* CocoaLumberjack.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A23EF00919B21123807FE20 /* libPods-非直播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-非直播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +119,18 @@
 		7DF491211EA511F9005D98C6 /* VideosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosNavigationController.m; sourceTree = "<group>"; };
 		7DF491231EA51240005D98C6 /* VideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
 		7DF491241EA51240005D98C6 /* VideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		8B798A091EA87AE4003B37FA /* 个人.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "个人.svg"; sourceTree = "<group>"; };
+		8BEB9D7B1EA9E93E00BAEFC7 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		8BEB9D7E1EA9F9F800BAEFC7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8BEB9D9C1EAA0E6200BAEFC7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8BEB9D9E1EAA0E7100BAEFC7 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8BEB9DA01EAA0E7E00BAEFC7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8BEB9DA21EAA0E9000BAEFC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BEB9DA51EAA0F0100BAEFC7 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CocoaLumberjack.framework; sourceTree = "<group>"; };
+		8BEB9DAA1EAA17AB00BAEFC7 /* libSVGKit-iOS.2.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSVGKit-iOS.2.0.0.a"; sourceTree = "<group>"; };
+		8BEB9DAB1EAA17AB00BAEFC7 /* usr */ = {isa = PBXFileReference; lastKnownFileType = folder; path = usr; sourceTree = "<group>"; };
 		D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +139,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BEB9DA31EAA0E9000BAEFC7 /* QuartzCore.framework in Frameworks */,
+				8BEB9DA11EAA0E7E00BAEFC7 /* libxml2.tbd in Frameworks */,
+				8BEB9DA71EAA0F1800BAEFC7 /* CocoaLumberjack.framework in Frameworks */,
+				8BEB9DAC1EAA17AB00BAEFC7 /* libSVGKit-iOS.2.0.0.a in Frameworks */,
+				8BEB9D9F1EAA0E7100BAEFC7 /* CoreImage.framework in Frameworks */,
+				8BEB9D9D1EAA0E6200BAEFC7 /* CoreText.framework in Frameworks */,
 				7DF491111EA3C14B005D98C6 /* CoreGraphics.framework in Frameworks */,
 				7DF4910F1EA3C140005D98C6 /* VideoToolbox.framework in Frameworks */,
 				7DF4910D1EA3C134005D98C6 /* OpenGLES.framework in Frameworks */,
@@ -110,6 +154,7 @@
 				7DF491071EA3C10A005D98C6 /* libz.tbd in Frameworks */,
 				7DF491051EA3C102005D98C6 /* libbz2.tbd in Frameworks */,
 				7DF491031EA3C0EE005D98C6 /* CoreVideo.framework in Frameworks */,
+				8BEB9DA61EAA0F0100BAEFC7 /* CocoaLumberjack.framework in Frameworks */,
 				7DF491011EA3C0E4005D98C6 /* CoreMedia.framework in Frameworks */,
 				7DF490FF1EA3C0DC005D98C6 /* AVFoundation.framework in Frameworks */,
 				7DF490FD1EA3C0D4005D98C6 /* AudioToolbox.framework in Frameworks */,
@@ -168,6 +213,7 @@
 		7DF490A91EA2745D005D98C6 /* 非直播 */ = {
 			isa = PBXGroup;
 			children = (
+				8BEB9D991EAA0E0300BAEFC7 /* Vender */,
 				8BB8C35A1EA6205200C81373 /* View */,
 				7DF491191EA50A25005D98C6 /* Base */,
 				7DF490AD1EA2745D005D98C6 /* AppDelegate.h */,
@@ -179,10 +225,13 @@
 				7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */,
 				7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */,
 				7DF490B31EA2745D005D98C6 /* Main.storyboard */,
+				8B798A091EA87AE4003B37FA /* 个人.svg */,
 				7DF490B61EA2745D005D98C6 /* Assets.xcassets */,
 				7DF490B81EA2745D005D98C6 /* LaunchScreen.storyboard */,
 				7DF490BB1EA2745D005D98C6 /* Info.plist */,
 				7DF490AA1EA2745D005D98C6 /* Supporting Files */,
+				8BEB9D7E1EA9F9F800BAEFC7 /* UIView+Frame.h */,
+				8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */,
 			);
 			path = "非直播";
 			sourceTree = "<group>";
@@ -216,6 +265,11 @@
 		7DF490FB1EA3C0D3005D98C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8BEB9DA51EAA0F0100BAEFC7 /* CocoaLumberjack.framework */,
+				8BEB9DA21EAA0E9000BAEFC7 /* QuartzCore.framework */,
+				8BEB9DA01EAA0E7E00BAEFC7 /* libxml2.tbd */,
+				8BEB9D9E1EAA0E7100BAEFC7 /* CoreImage.framework */,
+				8BEB9D9C1EAA0E6200BAEFC7 /* CoreText.framework */,
 				7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */,
 				7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */,
 				7DF4910E1EA3C140005D98C6 /* VideoToolbox.framework */,
@@ -249,8 +303,19 @@
 		8BB8C35A1EA6205200C81373 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8BEB9D7B1EA9E93E00BAEFC7 /* CustomTabBar.h */,
+				8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		8BEB9D991EAA0E0300BAEFC7 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				8BEB9DAA1EAA17AB00BAEFC7 /* libSVGKit-iOS.2.0.0.a */,
+				8BEB9DAB1EAA17AB00BAEFC7 /* usr */,
+			);
+			name = Vender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +332,7 @@
 				08DD9B2B64CD54DCD877353E /* [CP] Embed Pods Frameworks */,
 				DA5223DB2FD75B316A743957 /* [CP] Copy Pods Resources */,
 				8B798A081EA7754C003B37FA /* ShellScript */,
+				8BEB9DA91EAA0F1800BAEFC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,9 +432,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B798A0A1EA87AE4003B37FA /* 个人.svg in Resources */,
 				7DF490BA1EA2745D005D98C6 /* LaunchScreen.storyboard in Resources */,
 				7DF490B71EA2745D005D98C6 /* Assets.xcassets in Resources */,
 				7DF490B51EA2745D005D98C6 /* Main.storyboard in Resources */,
+				8BEB9DAD1EAA17AB00BAEFC7 /* usr in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,8 +527,10 @@
 				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
 				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
 				7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */,
+				8BEB9D7D1EA9E93E00BAEFC7 /* CustomTabBar.m in Sources */,
 				7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */,
 				7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */,
+				8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */,
 				7DF490AC1EA2745D005D98C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,9 +689,14 @@
 				INFOPLIST_FILE = "非直播/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/非直播",
+				);
 				OTHER_LDFLAGS = (
 					"-lc++",
 					"$(inherited)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -641,9 +716,14 @@
 				INFOPLIST_FILE = "非直播/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/非直播",
+				);
 				OTHER_LDFLAGS = (
 					"-lc++",
 					"$(inherited)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive;
 				PRODUCT_NAME = "$(TARGET_NAME)";

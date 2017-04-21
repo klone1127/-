@@ -1,1 +1,0 @@
-../../../SVGKit/Source/DOM classes/Unported or Partial DOM/SVGGradientStop.h

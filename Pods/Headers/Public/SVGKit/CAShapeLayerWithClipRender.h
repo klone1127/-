@@ -1,1 +1,0 @@
-../../../SVGKit/Source/QuartzCore additions/CAShapeLayerWithClipRender.h

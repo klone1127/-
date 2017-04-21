@@ -14,44 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CocoaLumberjack (3.0.0):
-    - CocoaLumberjack/Default (= 3.0.0)
-    - CocoaLumberjack/Extensions (= 3.0.0)
-  - CocoaLumberjack/Core (3.0.0)
-  - CocoaLumberjack/Default (3.0.0):
-    - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (3.0.0):
-    - CocoaLumberjack/Default
   - JSONModel (1.7.0)
-  - SDWebImage (4.0.0-beta2):
-    - SDWebImage/Core (= 4.0.0-beta2)
-  - SDWebImage/Core (4.0.0-beta2)
-  - SVGKit (2.0.1):
-    - CocoaLumberjack (~> 3.x)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - JSONModel (~> 1.7.0)
   - SDWebImage (~> 4.0.0-beta2)
-  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.x`)
-
-EXTERNAL SOURCES:
-  SVGKit:
-    :branch: 2.x
-    :git: https://github.com/SVGKit/SVGKit.git
-
-CHECKOUT OPTIONS:
-  SVGKit:
-    :commit: 8949b61e7ae25529678e34a548288cc838061674
-    :git: https://github.com/SVGKit/SVGKit.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
-  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
-  SVGKit: 4055d9e809b5db8633755979cfb3b02dc5a8c20d
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: feb1ab5de80accf60820fd8eaa634c2195640cb4
+PODFILE CHECKSUM: 4500eac100dc2d1495dc703beffdc67b2e9d87d7
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0

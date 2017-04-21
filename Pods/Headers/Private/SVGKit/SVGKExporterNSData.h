@@ -1,1 +1,0 @@
-../../../SVGKit/Source/Exporters/SVGKExporterNSData.h
