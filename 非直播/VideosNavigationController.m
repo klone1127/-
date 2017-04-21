@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tabBarItem.title = @"视频";
+    self.tabBarItem.image = [UIImage imageNamed:@"个人"];
+//    self.tabBarItem.imageInsets = UIEdgeInsetsMake(10, 0, -7, 0);
     
 }
 

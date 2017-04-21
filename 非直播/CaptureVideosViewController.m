@@ -240,10 +240,10 @@
 #pragma mark - delegate
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection {
     if (_videoConnection == connection) {
-        NSLog(@"视频+++");
+//        NSLog(@"视频+++");
 //        NSLog(@"port:%@", connection.inputPorts);
     } else {
-        NSLog(@"音频---");
+//        NSLog(@"音频---");
     }
     
 }
