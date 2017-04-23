@@ -15,20 +15,23 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - JSONModel (1.7.0)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - RAMAnimatedTabBarController (2.2.0)
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - JSONModel (~> 1.7.0)
+  - RAMAnimatedTabBarController (~> 2.2.0)
   - SDWebImage (~> 4.0.0-beta2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  RAMAnimatedTabBarController: 4904a0ec08f2a4e935d0d3a5824551a77390b965
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
 
-PODFILE CHECKSUM: 4500eac100dc2d1495dc703beffdc67b2e9d87d7
+PODFILE CHECKSUM: 1116cde8679744ec0ab3f16cd1048aa4df25b82c
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1
