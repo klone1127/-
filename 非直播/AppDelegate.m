@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "BaseTabbarViewController.h"
 #import "CaptureVideosViewController.h"
+#import "非直播-Swift.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +21,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    BaseTabbarViewController *baseVC = [[BaseTabbarViewController alloc] init];
-    self.window.rootViewController = baseVC;
+//    BaseTabbarViewController *baseVC = [[BaseTabbarViewController alloc] init];
+//    self.window.rootViewController = baseVC;
+    
+    AnimationViewController *tab = [[AnimationViewController alloc] init];
+    self.window.rootViewController = tab;
     
     return YES;
 }

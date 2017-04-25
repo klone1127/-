@@ -34,6 +34,7 @@
 		7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491211EA511F9005D98C6 /* VideosNavigationController.m */; };
 		7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491241EA51240005D98C6 /* VideosViewController.m */; };
 		7DF491F11EAA476A005D98C6 /* libSVGKit-iOS.2.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4916C1EAA476A005D98C6 /* libSVGKit-iOS.2.0.0.a */; };
+		8B2051F21EAF598500083C83 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2051F11EAF598500083C83 /* AnimationViewController.swift */; };
 		8B798A0A1EA87AE4003B37FA /* 个人.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8B798A091EA87AE4003B37FA /* 个人.svg */; };
 		8BEB9D7D1EA9E93E00BAEFC7 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */; };
 		8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */; };
@@ -90,10 +91,10 @@
 		7DF490B91EA2745D005D98C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF490BB1EA2745D005D98C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF490C01EA2745D005D98C6 /* 非直播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "非直播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DF490C41EA2745D005D98C6 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___Tests.m; sourceTree = "<group>"; };
+		7DF490C41EA2745D005D98C6 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
 		7DF490C61EA2745D005D98C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF490CB1EA2745D005D98C6 /* 非直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "非直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DF490CF1EA2745D005D98C6 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___UITests.m; sourceTree = "<group>"; };
+		7DF490CF1EA2745D005D98C6 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		7DF490D11EA2745D005D98C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF490FC1EA3C0D4005D98C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7DF490FE1EA3C0DC005D98C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -246,7 +247,9 @@
 		7DF491ED1EAA476A005D98C6 /* SVGViewSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGViewSpec.h; sourceTree = "<group>"; };
 		7DF491EE1EAA476A005D98C6 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
 		7DF491EF1EAA476A005D98C6 /* TinySVGTextAreaElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinySVGTextAreaElement.h; sourceTree = "<group>"; };
-		899E9C20F625F8C883CA23F5 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		899E9C20F625F8C883CA23F5 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2051EE1EAF4E2700083C83 /* 非直播-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "非直播-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B2051F11EAF598500083C83 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		8B798A091EA87AE4003B37FA /* 个人.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "个人.svg"; sourceTree = "<group>"; };
 		8BEB9D7B1EA9E93E00BAEFC7 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
 		8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
@@ -422,6 +425,8 @@
 				7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */,
 				7DF491201EA511F9005D98C6 /* VideosNavigationController.h */,
 				7DF491211EA511F9005D98C6 /* VideosNavigationController.m */,
+				8B2051EE1EAF4E2700083C83 /* 非直播-Bridging-Header.h */,
+				8B2051F11EAF598500083C83 /* AnimationViewController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -668,6 +673,7 @@
 					7DF490A61EA2745D005D98C6 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = TBSUACPT52;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					7DF490BF1EA2745D005D98C6 = {
@@ -800,6 +806,7 @@
 			files = (
 				7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */,
 				7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */,
+				8B2051F21EAF598500083C83 /* AnimationViewController.swift in Sources */,
 				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
 				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
 				7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */,
@@ -957,7 +964,9 @@
 			baseConfigurationReference = D6E3778D66FEE8A5C8A5F6F4 /* Pods-非直播.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TBSUACPT52;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -965,7 +974,7 @@
 					"$(PROJECT_DIR)/非直播/include/SVGKit-iOS.2.0.0",
 				);
 				INFOPLIST_FILE = "非直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -979,6 +988,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "非直播/非直播-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -987,7 +999,9 @@
 			baseConfigurationReference = 50CDBFB149448613C0065ADA /* Pods-非直播.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TBSUACPT52;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -995,7 +1009,7 @@
 					"$(PROJECT_DIR)/非直播/include/SVGKit-iOS.2.0.0",
 				);
 				INFOPLIST_FILE = "非直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1009,12 +1023,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "非直播/非直播-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		7DF490D81EA2745D005D98C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = TBSUACPT52;
 				INFOPLIST_FILE = "非直播Tests/Info.plist";
@@ -1028,6 +1045,7 @@
 		7DF490D91EA2745D005D98C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = TBSUACPT52;
 				INFOPLIST_FILE = "非直播Tests/Info.plist";
@@ -1041,6 +1059,7 @@
 		7DF490DB1EA2745D005D98C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = TBSUACPT52;
 				INFOPLIST_FILE = "非直播UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1053,6 +1072,7 @@
 		7DF490DC1EA2745D005D98C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = TBSUACPT52;
 				INFOPLIST_FILE = "非直播UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
