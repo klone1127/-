@@ -18,9 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tabBarItem.image = [UIImage imageNamed:@"个人"];
-//    self.tabBarItem.imageInsets = UIEdgeInsetsMake(10, 0, -7, 0);
     
+    VideosViewController *vc = [[VideosViewController alloc] init];
+    [self setViewControllers:@[vc]];
 }
 
 - (void)didReceiveMemoryWarning {

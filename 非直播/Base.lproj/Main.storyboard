@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jmC-qB-Kb1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,7 +24,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="406" y="115"/>
+            <point key="canvasLocation" x="-1666" y="-58"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="V5B-W9-qCF">
+            <objects>
+                <tabBarController id="jmC-qB-Kb1" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="jXa-XC-9Mb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WGP-f2-Gmo" kind="relationship" relationship="viewControllers" id="dD4-Qz-Swv"/>
+                        <segue destination="SDF-DD-QMS" kind="relationship" relationship="viewControllers" id="ird-yf-WME"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Cn-JX-fLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-695" y="-80"/>
+        </scene>
+        <!--Videos Navigation Controller-->
+        <scene sceneID="O0z-FM-Crc">
+            <objects>
+                <navigationController id="SDF-DD-QMS" customClass="VideosNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="个人" id="6X1-Ic-Ngc" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                        <connections>
+                            <outlet property="animation" destination="Y6a-YJ-Fww" id="zNV-2A-1wb"/>
+                        </connections>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qau-Fr-9Qw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYO-8P-tQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Y6a-YJ-Fww" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="273"/>
+        </scene>
+        <!--Capture Videos Navigation Controller-->
+        <scene sceneID="AWr-Jk-gay">
+            <objects>
+                <navigationController id="WGP-f2-Gmo" customClass="CaptureVideosNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="主页" id="0ic-YP-fQK" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                        <connections>
+                            <outlet property="animation" destination="cSd-E0-aYd" id="Uty-Zv-K6L"/>
+                        </connections>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H9X-Ks-GZQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mge-zc-Z7t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="cSd-E0-aYd" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="-473"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="个人" width="32" height="32"/>
+        <image name="主页" width="32" height="32"/>
+    </resources>
 </document>

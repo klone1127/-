@@ -29,14 +29,12 @@
 		7DF491111EA3C14B005D98C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491101EA3C14B005D98C6 /* CoreGraphics.framework */; };
 		7DF491151EA3C19C005D98C6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */; };
 		7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */; };
-		7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4911B1EA50A4D005D98C6 /* BaseTabbarViewController.m */; };
 		7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */; };
 		7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491211EA511F9005D98C6 /* VideosNavigationController.m */; };
 		7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF491241EA51240005D98C6 /* VideosViewController.m */; };
 		7DF491F11EAA476A005D98C6 /* libSVGKit-iOS.2.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF4916C1EAA476A005D98C6 /* libSVGKit-iOS.2.0.0.a */; };
 		8B2051F21EAF598500083C83 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2051F11EAF598500083C83 /* AnimationViewController.swift */; };
 		8B798A0A1EA87AE4003B37FA /* 个人.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8B798A091EA87AE4003B37FA /* 个人.svg */; };
-		8BEB9D7D1EA9E93E00BAEFC7 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */; };
 		8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */; };
 		8BEB9D9D1EAA0E6200BAEFC7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9D9C1EAA0E6200BAEFC7 /* CoreText.framework */; };
 		8BEB9D9F1EAA0E7100BAEFC7 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB9D9E1EAA0E7100BAEFC7 /* CoreImage.framework */; };
@@ -110,8 +108,6 @@
 		7DF491141EA3C19C005D98C6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureVideosViewController.h; sourceTree = "<group>"; };
 		7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureVideosViewController.m; sourceTree = "<group>"; };
-		7DF4911A1EA50A4D005D98C6 /* BaseTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabbarViewController.h; sourceTree = "<group>"; };
-		7DF4911B1EA50A4D005D98C6 /* BaseTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarViewController.m; sourceTree = "<group>"; };
 		7DF4911D1EA50AE9005D98C6 /* CaptureVideosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureVideosNavigationController.h; sourceTree = "<group>"; };
 		7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureVideosNavigationController.m; sourceTree = "<group>"; };
 		7DF491201EA511F9005D98C6 /* VideosNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosNavigationController.h; sourceTree = "<group>"; };
@@ -251,8 +247,6 @@
 		8B2051EE1EAF4E2700083C83 /* 非直播-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "非直播-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B2051F11EAF598500083C83 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		8B798A091EA87AE4003B37FA /* 个人.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "个人.svg"; sourceTree = "<group>"; };
-		8BEB9D7B1EA9E93E00BAEFC7 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
-		8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
 		8BEB9D7E1EA9F9F800BAEFC7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		8BEB9D9C1EAA0E6200BAEFC7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -419,8 +413,6 @@
 		7DF491191EA50A25005D98C6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				7DF4911A1EA50A4D005D98C6 /* BaseTabbarViewController.h */,
-				7DF4911B1EA50A4D005D98C6 /* BaseTabbarViewController.m */,
 				7DF4911D1EA50AE9005D98C6 /* CaptureVideosNavigationController.h */,
 				7DF4911E1EA50AE9005D98C6 /* CaptureVideosNavigationController.m */,
 				7DF491201EA511F9005D98C6 /* VideosNavigationController.h */,
@@ -585,8 +577,6 @@
 		8BB8C35A1EA6205200C81373 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8BEB9D7B1EA9E93E00BAEFC7 /* CustomTabBar.h */,
-				8BEB9D7C1EA9E93E00BAEFC7 /* CustomTabBar.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -809,8 +799,6 @@
 				8B2051F21EAF598500083C83 /* AnimationViewController.swift in Sources */,
 				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
 				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
-				7DF4911C1EA50A4D005D98C6 /* BaseTabbarViewController.m in Sources */,
-				8BEB9D7D1EA9E93E00BAEFC7 /* CustomTabBar.m in Sources */,
 				7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */,
 				7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */,
 				8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */,
