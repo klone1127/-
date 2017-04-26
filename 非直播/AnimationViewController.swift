@@ -9,11 +9,11 @@
 import UIKit
 import RAMAnimatedTabBarController
 
-class AnimationViewController: RAMAnimatedTabBarController {
+class AnimationViewController: RAMAnimatedTabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.delegate = self;
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +22,9 @@ class AnimationViewController: RAMAnimatedTabBarController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        print("\(tabBarController.selectedIndex)")
+    }
 
     /*
     // MARK: - Navigation

@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-1666" y="-58"/>
         </scene>
-        <!--Animated Tab Bar Controller-->
+        <!--Animation View Controller-->
         <scene sceneID="V5B-W9-qCF">
             <objects>
-                <tabBarController id="jmC-qB-Kb1" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                <tabBarController id="jmC-qB-Kb1" customClass="AnimationViewController" customModule="非直播" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="jXa-XC-9Mb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -42,14 +42,18 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Cn-JX-fLu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-695" y="-80"/>
+            <point key="canvasLocation" x="-1569" y="-877"/>
         </scene>
         <!--Videos Navigation Controller-->
         <scene sceneID="O0z-FM-Crc">
             <objects>
                 <navigationController id="SDF-DD-QMS" customClass="VideosNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="个人" id="6X1-Ic-Ngc" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="yOffSet">
+                                <real key="value" value="-4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="animation" destination="Y6a-YJ-Fww" id="zNV-2A-1wb"/>
                         </connections>
@@ -62,14 +66,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYO-8P-tQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="Y6a-YJ-Fww" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="337" y="273"/>
+            <point key="canvasLocation" x="-359" y="-544"/>
         </scene>
         <!--Capture Videos Navigation Controller-->
         <scene sceneID="AWr-Jk-gay">
             <objects>
                 <navigationController id="WGP-f2-Gmo" customClass="CaptureVideosNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="主页" id="0ic-YP-fQK" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                        <inset key="imageInsets" minX="0.0" minY="11" maxX="0.0" maxY="-11"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="yOffSet">
+                                <real key="value" value="-4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="animation" destination="cSd-E0-aYd" id="Uty-Zv-K6L"/>
                         </connections>
@@ -82,7 +91,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mge-zc-Z7t" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="cSd-E0-aYd" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="338" y="-473"/>
+            <point key="canvasLocation" x="-358" y="-1223"/>
         </scene>
     </scenes>
     <resources>
