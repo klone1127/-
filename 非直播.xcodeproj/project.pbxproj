@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		59164529C1AFF96260FD8F4E /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899E9C20F625F8C883CA23F5 /* Pods____.framework */; };
+		7D0431951EB1893E00324AFF /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0431941EB1893E00324AFF /* NetworkManager.m */; };
+		7D13953C1EB194BE004BAFA7 /* NetworkManager+LiveList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13953B1EB194BE004BAFA7 /* NetworkManager+LiveList.m */; };
+		7D1395401EB197CF004BAFA7 /* LiveListResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13953F1EB197CF004BAFA7 /* LiveListResponseModel.m */; };
+		7D1395441EB19849004BAFA7 /* LiveListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395431EB19849004BAFA7 /* LiveListModel.m */; };
+		7D1395471EB19986004BAFA7 /* CreatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395461EB19986004BAFA7 /* CreatorModel.m */; };
+		7D13954A1EB19F93004BAFA7 /* ExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395491EB19F93004BAFA7 /* ExtraModel.m */; };
+		7D13954D1EB1A001004BAFA7 /* ExtraLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13954C1EB1A001004BAFA7 /* ExtraLabelModel.m */; };
 		7DF490AC1EA2745D005D98C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490AB1EA2745D005D98C6 /* main.m */; };
 		7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490AE1EA2745D005D98C6 /* AppDelegate.m */; };
 		7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490B11EA2745D005D98C6 /* ViewController.m */; };
@@ -78,6 +85,20 @@
 
 /* Begin PBXFileReference section */
 		50CDBFB149448613C0065ADA /* Pods-非直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.release.xcconfig"; sourceTree = "<group>"; };
+		7D0431931EB1893E00324AFF /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		7D0431941EB1893E00324AFF /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7D13953A1EB194BE004BAFA7 /* NetworkManager+LiveList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetworkManager+LiveList.h"; sourceTree = "<group>"; };
+		7D13953B1EB194BE004BAFA7 /* NetworkManager+LiveList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NetworkManager+LiveList.m"; sourceTree = "<group>"; };
+		7D13953E1EB197CF004BAFA7 /* LiveListResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListResponseModel.h; sourceTree = "<group>"; };
+		7D13953F1EB197CF004BAFA7 /* LiveListResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListResponseModel.m; sourceTree = "<group>"; };
+		7D1395421EB19849004BAFA7 /* LiveListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListModel.h; sourceTree = "<group>"; };
+		7D1395431EB19849004BAFA7 /* LiveListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListModel.m; sourceTree = "<group>"; };
+		7D1395451EB19986004BAFA7 /* CreatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatorModel.h; sourceTree = "<group>"; };
+		7D1395461EB19986004BAFA7 /* CreatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatorModel.m; sourceTree = "<group>"; };
+		7D1395481EB19F93004BAFA7 /* ExtraModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraModel.h; sourceTree = "<group>"; };
+		7D1395491EB19F93004BAFA7 /* ExtraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraModel.m; sourceTree = "<group>"; };
+		7D13954B1EB1A001004BAFA7 /* ExtraLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraLabelModel.h; sourceTree = "<group>"; };
+		7D13954C1EB1A001004BAFA7 /* ExtraLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraLabelModel.m; sourceTree = "<group>"; };
 		7DF490A71EA2745D005D98C6 /* 非直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "非直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF490AB1EA2745D005D98C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DF490AD1EA2745D005D98C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -311,6 +332,34 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7D0431921EB188B700324AFF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7D0431931EB1893E00324AFF /* NetworkManager.h */,
+				7D0431941EB1893E00324AFF /* NetworkManager.m */,
+				7D13953A1EB194BE004BAFA7 /* NetworkManager+LiveList.h */,
+				7D13953B1EB194BE004BAFA7 /* NetworkManager+LiveList.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		7D13953D1EB19759004BAFA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D13953E1EB197CF004BAFA7 /* LiveListResponseModel.h */,
+				7D13953F1EB197CF004BAFA7 /* LiveListResponseModel.m */,
+				7D1395421EB19849004BAFA7 /* LiveListModel.h */,
+				7D1395431EB19849004BAFA7 /* LiveListModel.m */,
+				7D1395451EB19986004BAFA7 /* CreatorModel.h */,
+				7D1395461EB19986004BAFA7 /* CreatorModel.m */,
+				7D1395481EB19F93004BAFA7 /* ExtraModel.h */,
+				7D1395491EB19F93004BAFA7 /* ExtraModel.m */,
+				7D13954B1EB1A001004BAFA7 /* ExtraLabelModel.h */,
+				7D13954C1EB1A001004BAFA7 /* ExtraLabelModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		7DF4909E1EA2745D005D98C6 = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +385,8 @@
 		7DF490A91EA2745D005D98C6 /* 非直播 */ = {
 			isa = PBXGroup;
 			children = (
+				7D13953D1EB19759004BAFA7 /* Model */,
+				7D0431921EB188B700324AFF /* Tools */,
 				8BEB9D991EAA0E0300BAEFC7 /* Vender */,
 				8BB8C35A1EA6205200C81373 /* View */,
 				7DF491191EA50A25005D98C6 /* Base */,
@@ -353,8 +404,6 @@
 				7DF490B81EA2745D005D98C6 /* LaunchScreen.storyboard */,
 				7DF490BB1EA2745D005D98C6 /* Info.plist */,
 				7DF490AA1EA2745D005D98C6 /* Supporting Files */,
-				8BEB9D7E1EA9F9F800BAEFC7 /* UIView+Frame.h */,
-				8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */,
 			);
 			path = "非直播";
 			sourceTree = "<group>";
@@ -577,6 +626,8 @@
 		8BB8C35A1EA6205200C81373 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8BEB9D7E1EA9F9F800BAEFC7 /* UIView+Frame.h */,
+				8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -662,7 +713,7 @@
 				TargetAttributes = {
 					7DF490A61EA2745D005D98C6 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = TBSUACPT52;
+						DevelopmentTeam = 9B2M6PYX58;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -794,15 +845,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D13953C1EB194BE004BAFA7 /* NetworkManager+LiveList.m in Sources */,
+				7D13954D1EB1A001004BAFA7 /* ExtraLabelModel.m in Sources */,
 				7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */,
 				7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */,
 				8B2051F21EAF598500083C83 /* AnimationViewController.swift in Sources */,
+				7D1395471EB19986004BAFA7 /* CreatorModel.m in Sources */,
 				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
 				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
 				7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */,
 				7DF4911F1EA50AE9005D98C6 /* CaptureVideosNavigationController.m in Sources */,
+				7D13954A1EB19F93004BAFA7 /* ExtraModel.m in Sources */,
 				8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */,
+				7D0431951EB1893E00324AFF /* NetworkManager.m in Sources */,
+				7D1395401EB197CF004BAFA7 /* LiveListResponseModel.m in Sources */,
 				7DF490AC1EA2745D005D98C6 /* main.m in Sources */,
+				7D1395441EB19849004BAFA7 /* LiveListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,9 +1011,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TBSUACPT52;
+				DEVELOPMENT_TEAM = 9B2M6PYX58;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -973,7 +1032,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "非直播/非直播-Bridging-Header.h";
@@ -988,9 +1047,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = TBSUACPT52;
+				DEVELOPMENT_TEAM = 9B2M6PYX58;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1008,7 +1068,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klone.feilive1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "非直播/非直播-Bridging-Header.h";

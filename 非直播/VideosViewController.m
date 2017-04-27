@@ -7,6 +7,7 @@
 //
 
 #import "VideosViewController.h"
+#import "NetworkManager+LiveList.h"
 
 @interface VideosViewController ()
 
@@ -17,8 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.title = @"视频";
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.navigationItem.title = @"直播";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [[NetworkManager manager] requestLiveListWithUid:133825214
+                                            interest:1
+                                             success:^(NSURLSessionDataTask *task, id data) {
+                                                 
+                                             }
+                                             failure:^(NSURLSessionDataTask *task, NSError *error) {
+                                                 
+                                             }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
