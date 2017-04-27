@@ -9,11 +9,13 @@
 #import <JSONModel/JSONModel.h>
 @class LiveListModel;
 
+@protocol LiveListModel;
+
 @interface LiveListResponseModel : JSONModel
 
 @property (nonatomic, assign)NSInteger                          dm_error;
 @property (nonatomic, copy)NSString                             *error_msg;
-@property (nonatomic, strong)NSArray <LiveListModel *>          *lives;
+@property (nonatomic, strong)NSArray <LiveListModel>          *lives;
 @property (nonatomic, assign)NSInteger                          expire_time;
 
 + (LiveListResponseModel *)dicToModel:(id)data;

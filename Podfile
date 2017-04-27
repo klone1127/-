@@ -6,4 +6,5 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'SDWebImage', '~> 4.0.0-beta2'
 use_frameworks!
 pod 'RAMAnimatedTabBarController', "~> 2.2.0"
+pod 'SDWebImage', '~> 4.0.0-beta2'
 end

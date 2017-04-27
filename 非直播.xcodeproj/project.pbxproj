@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		59164529C1AFF96260FD8F4E /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899E9C20F625F8C883CA23F5 /* Pods____.framework */; };
 		7D0431951EB1893E00324AFF /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0431941EB1893E00324AFF /* NetworkManager.m */; };
+		7D0A73CB1EB254BA00EE9092 /* LiveShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A73CA1EB254BA00EE9092 /* LiveShowViewController.m */; };
 		7D13953C1EB194BE004BAFA7 /* NetworkManager+LiveList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13953B1EB194BE004BAFA7 /* NetworkManager+LiveList.m */; };
 		7D1395401EB197CF004BAFA7 /* LiveListResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13953F1EB197CF004BAFA7 /* LiveListResponseModel.m */; };
 		7D1395441EB19849004BAFA7 /* LiveListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395431EB19849004BAFA7 /* LiveListModel.m */; };
 		7D1395471EB19986004BAFA7 /* CreatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395461EB19986004BAFA7 /* CreatorModel.m */; };
 		7D13954A1EB19F93004BAFA7 /* ExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395491EB19F93004BAFA7 /* ExtraModel.m */; };
 		7D13954D1EB1A001004BAFA7 /* ExtraLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13954C1EB1A001004BAFA7 /* ExtraLabelModel.m */; };
+		7D1395531EB1FE58004BAFA7 /* LiveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1395511EB1FE58004BAFA7 /* LiveCollectionViewCell.m */; };
+		7D1395541EB1FE58004BAFA7 /* LiveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1395521EB1FE58004BAFA7 /* LiveCollectionViewCell.xib */; };
 		7DF490AC1EA2745D005D98C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490AB1EA2745D005D98C6 /* main.m */; };
 		7DF490AF1EA2745D005D98C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490AE1EA2745D005D98C6 /* AppDelegate.m */; };
 		7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF490B11EA2745D005D98C6 /* ViewController.m */; };
@@ -87,6 +90,8 @@
 		50CDBFB149448613C0065ADA /* Pods-非直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-非直播.release.xcconfig"; path = "Pods/Target Support Files/Pods-非直播/Pods-非直播.release.xcconfig"; sourceTree = "<group>"; };
 		7D0431931EB1893E00324AFF /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		7D0431941EB1893E00324AFF /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7D0A73C91EB254BA00EE9092 /* LiveShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveShowViewController.h; sourceTree = "<group>"; };
+		7D0A73CA1EB254BA00EE9092 /* LiveShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveShowViewController.m; sourceTree = "<group>"; };
 		7D13953A1EB194BE004BAFA7 /* NetworkManager+LiveList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetworkManager+LiveList.h"; sourceTree = "<group>"; };
 		7D13953B1EB194BE004BAFA7 /* NetworkManager+LiveList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NetworkManager+LiveList.m"; sourceTree = "<group>"; };
 		7D13953E1EB197CF004BAFA7 /* LiveListResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListResponseModel.h; sourceTree = "<group>"; };
@@ -99,6 +104,9 @@
 		7D1395491EB19F93004BAFA7 /* ExtraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraModel.m; sourceTree = "<group>"; };
 		7D13954B1EB1A001004BAFA7 /* ExtraLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraLabelModel.h; sourceTree = "<group>"; };
 		7D13954C1EB1A001004BAFA7 /* ExtraLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraLabelModel.m; sourceTree = "<group>"; };
+		7D1395501EB1FE58004BAFA7 /* LiveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveCollectionViewCell.h; sourceTree = "<group>"; };
+		7D1395511EB1FE58004BAFA7 /* LiveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveCollectionViewCell.m; sourceTree = "<group>"; };
+		7D1395521EB1FE58004BAFA7 /* LiveCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveCollectionViewCell.xib; sourceTree = "<group>"; };
 		7DF490A71EA2745D005D98C6 /* 非直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "非直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF490AB1EA2745D005D98C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DF490AD1EA2745D005D98C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -360,6 +368,26 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		7D13954E1EB1A3BE004BAFA7 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				7DF491231EA51240005D98C6 /* VideosViewController.h */,
+				7DF491241EA51240005D98C6 /* VideosViewController.m */,
+				7D0A73C91EB254BA00EE9092 /* LiveShowViewController.h */,
+				7D0A73CA1EB254BA00EE9092 /* LiveShowViewController.m */,
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		7D13954F1EB1A3E8004BAFA7 /* CaptureVideos */ = {
+			isa = PBXGroup;
+			children = (
+				7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */,
+				7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */,
+			);
+			name = CaptureVideos;
+			sourceTree = "<group>";
+		};
 		7DF4909E1EA2745D005D98C6 = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +413,8 @@
 		7DF490A91EA2745D005D98C6 /* 非直播 */ = {
 			isa = PBXGroup;
 			children = (
+				7D13954F1EB1A3E8004BAFA7 /* CaptureVideos */,
+				7D13954E1EB1A3BE004BAFA7 /* Live */,
 				7D13953D1EB19759004BAFA7 /* Model */,
 				7D0431921EB188B700324AFF /* Tools */,
 				8BEB9D991EAA0E0300BAEFC7 /* Vender */,
@@ -394,10 +424,6 @@
 				7DF490AE1EA2745D005D98C6 /* AppDelegate.m */,
 				7DF490B01EA2745D005D98C6 /* ViewController.h */,
 				7DF490B11EA2745D005D98C6 /* ViewController.m */,
-				7DF491231EA51240005D98C6 /* VideosViewController.h */,
-				7DF491241EA51240005D98C6 /* VideosViewController.m */,
-				7DF491161EA50A11005D98C6 /* CaptureVideosViewController.h */,
-				7DF491171EA50A11005D98C6 /* CaptureVideosViewController.m */,
 				7DF490B31EA2745D005D98C6 /* Main.storyboard */,
 				8B798A091EA87AE4003B37FA /* 个人.svg */,
 				7DF490B61EA2745D005D98C6 /* Assets.xcassets */,
@@ -628,6 +654,9 @@
 			children = (
 				8BEB9D7E1EA9F9F800BAEFC7 /* UIView+Frame.h */,
 				8BEB9D7F1EA9F9F800BAEFC7 /* UIView+Frame.m */,
+				7D1395501EB1FE58004BAFA7 /* LiveCollectionViewCell.h */,
+				7D1395511EB1FE58004BAFA7 /* LiveCollectionViewCell.m */,
+				7D1395521EB1FE58004BAFA7 /* LiveCollectionViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -760,6 +789,7 @@
 				7DF490BA1EA2745D005D98C6 /* LaunchScreen.storyboard in Resources */,
 				7DF490B71EA2745D005D98C6 /* Assets.xcassets in Resources */,
 				7DF490B51EA2745D005D98C6 /* Main.storyboard in Resources */,
+				7D1395541EB1FE58004BAFA7 /* LiveCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -850,6 +880,7 @@
 				7DF490B21EA2745D005D98C6 /* ViewController.m in Sources */,
 				7DF491221EA511F9005D98C6 /* VideosNavigationController.m in Sources */,
 				8B2051F21EAF598500083C83 /* AnimationViewController.swift in Sources */,
+				7D0A73CB1EB254BA00EE9092 /* LiveShowViewController.m in Sources */,
 				7D1395471EB19986004BAFA7 /* CreatorModel.m in Sources */,
 				7DF491251EA51240005D98C6 /* VideosViewController.m in Sources */,
 				7DF491181EA50A11005D98C6 /* CaptureVideosViewController.m in Sources */,
@@ -859,6 +890,7 @@
 				8BEB9D801EA9F9F800BAEFC7 /* UIView+Frame.m in Sources */,
 				7D0431951EB1893E00324AFF /* NetworkManager.m in Sources */,
 				7D1395401EB197CF004BAFA7 /* LiveListResponseModel.m in Sources */,
+				7D1395531EB1FE58004BAFA7 /* LiveCollectionViewCell.m in Sources */,
 				7DF490AC1EA2745D005D98C6 /* main.m in Sources */,
 				7D1395441EB19849004BAFA7 /* LiveListModel.m in Sources */,
 			);

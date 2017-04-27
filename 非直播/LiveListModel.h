@@ -7,8 +7,8 @@
 //
 
 #import <JSONModel/JSONModel.h>
-@class CreatorModel;
-@class ExtraModel;
+#import "CreatorModel.h"
+#import "ExtraModel.h"
 
 @interface LiveListModel : JSONModel
 

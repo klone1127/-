@@ -9,9 +9,11 @@
 #import <JSONModel/JSONModel.h>
 @class ExtraLabelModel;
 
+@protocol ExtraLabelModel;
+
 @interface ExtraModel : JSONModel
 
 @property (nonatomic, copy)NSString <Optional>                          *cover;
-@property (nonatomic, strong)NSArray <ExtraLabelModel *> <Optional>     *label;
+@property (nonatomic, strong)NSArray <ExtraLabelModel,Optional>         *label;
 
 @end
